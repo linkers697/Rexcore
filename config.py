@@ -36,15 +36,15 @@ API_KEY = getenv("API_KEY", 'NxGBNexGenBotsa54535') # youtube song api key, gene
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/UnknownQuery",
+    "https://t.me/AuraPromotion",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AuraPromotion")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/friends_hindi_chatting_grp")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EvelanMusiCUpdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+2vDk6IHw8u8wODdl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/y9m8b1.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/xtxitl.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/y9m8b1.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/xtxitl.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/y9m8b1.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/y9m8b1.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/xtxitl.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/xtxitl.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/xtxitl.jpg"
 
 
 def time_to_seconds(time):
@@ -121,5 +121,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
